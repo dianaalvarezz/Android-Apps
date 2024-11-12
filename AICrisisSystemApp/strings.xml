@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AICrisisASystemApp</string>
+    <string name="i_am_trapped">I Am Trapped</string>
+    <string name="evacuate_button">I Can Evacuate</string>
+    <string name="alert_message">ALERT!</string>
+    <string name="drill_line">THIS IS NOT A DRILL:</string>
+    <string name="disaster_line">Disaster has occurred</string>
+    <string name="seek_shelter_line">SEEK SHELTER IMMEDIATELY</string>
+    <string name="time">8:46</string>
+    <string name="date">Tuesday, September 9</string>
+    <string name="remain_calm">REMAIN CALM, HELP IS ON THE WAY</string>
+    <string name="if_well_enough">If safe to do so please respond to these few questions to help first responders assist you</string>
+    <string name="how_many_people">How many others are with you?</string>
+    <string name="enter_total">Enter</string>
+    <string name="which_hazard">Which hazards are there?</string>
+    <string name="injury_level">On a scale of 1-10, how injured are you?</string>
+    <string name="submit">Submit</string>
+    <string name="map_message">Follow the red arrows for the safest way to a safety zone</string>
+
+</resources>

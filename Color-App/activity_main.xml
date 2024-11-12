@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/red_color"
+        style="@style/TextViewStyle"
+        android:layout_width="273dp"
+        android:layout_height="62dp"
+        android:hint="@string/first_color"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minWidth="200dp"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/green_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/green_color"
+        style="@style/TextViewStyle"
+        android:layout_width="273dp"
+        android:layout_height="62dp"
+        android:hint="@string/second_color"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minWidth="200dp"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/blue_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/red_color" />
+
+    <EditText
+        android:id="@+id/blue_color"
+        style="@style/TextViewStyle"
+        android:layout_width="273dp"
+        android:layout_height="62dp"
+        android:hint="@string/third_color"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:minWidth="200dp"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/green_color"
+        app:layout_constraintBottom_toTopOf="@+id/app_label" />
+
+    <TextView
+        android:id="@+id/app_label"
+        style="@style/Label"
+        android:layout_width="388dp"
+        android:layout_height="97dp"
+        android:minWidth="150dp"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blue_color" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

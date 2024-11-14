@@ -11,11 +11,18 @@ A unique Taylor Swift-themed app where each square in a Tic Tac Toe-style grid r
   - **Popular Songs**
 
 ## Screenshots
-Main Page: 
-![image](https://github.com/user-attachments/assets/00e3275d-245c-475b-9d1c-dab11d90006b)
+## Screenshots
+<div align="center">
+    <div style="display: inline-block; text-align: center; margin: 10px;">
+        <p>Main Page:</p>
+        <img src="https://github.com/user-attachments/assets/00e3275d-245c-475b-9d1c-dab11d90006b" alt="Main Page" width="300"/>
+    </div>
+    <div style="display: inline-block; text-align: center; margin: 10px;">
+        <p>Example when album is selected:</p>
+        <img src="https://github.com/user-attachments/assets/60d2d404-811f-49e8-b9fc-1c9b060463ce" alt="Album Selected" width="300"/>
+    </div>
+</div>
 
-Example when album is selected:
-![image](https://github.com/user-attachments/assets/60d2d404-811f-49e8-b9fc-1c9b060463ce)
 
 
 

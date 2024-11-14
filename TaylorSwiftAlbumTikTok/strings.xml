@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">Taylor Swift Tic Tac Toe</string>
+    <string name="back">Back</string>
+    <string name="extra">Extra album info here</string>
+    <string name="album_name">Extra album info here</string>
+    <string name="lover_desc">Lover Album</string>
+    <string name="red_desc">Red Album</string>
+    <string name="speak_now_desc">Speak Now Album</string>
+    <string name="fearless_desc">Fearless Album</string>
+    <string name="album_1989_desc">1989 Album</string>
+    <string name="reputation_desc">Reputation Album</string>
+    <string name="folklore_desc">Folklore Album</string>
+    <string name="evermore_desc">Evermore Album</string>
+    <string name="ttpd_desc">The Tortured Poets Department</string>
+    <string name="choose">Choose your favorite Taylor Swift album!</string>
+
+</resources>

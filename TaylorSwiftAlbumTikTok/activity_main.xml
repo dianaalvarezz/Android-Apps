@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="4"
+    android:padding="16dp"
+    android:alignmentMode="alignMargins"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <!-- TextView -->
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:text="@string/choose"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:paddingBottom="16dp" />
+
+    <!-- Lover Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/albumcoverart"
+        android:contentDescription="@string/lover_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- Red Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/redalbum"
+        android:contentDescription="@string/red_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- Speak Now Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/speaknow"
+        android:contentDescription="@string/speak_now_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- Fearless Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/fearless"
+        android:contentDescription="@string/fearless_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- 1989 Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/nineteen"
+        android:contentDescription="@string/album_1989_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- Reputation Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/reputation"
+        android:contentDescription="@string/reputation_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- Folklore Album Box -->
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/folklore"
+        android:contentDescription="@string/folklore_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- Evermore Album Box-->
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/evermore"
+        android:contentDescription="@string/evermore_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+    <!-- TTPD Album Box-->
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:src="@drawable/torturex"
+        android:contentDescription="@string/ttpd_desc"
+        android:scaleType="centerCrop"
+        android:background="@null" />
+
+</GridLayout>

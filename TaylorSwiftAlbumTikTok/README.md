@@ -14,6 +14,7 @@ A unique Taylor Swift-themed app where each square in a Tic Tac Toe-style grid r
 ## Screenshots
 ## Screenshots
 
+<div align="center" >
 <table>
   <tr>
     <td style="text-align: center;">
@@ -26,6 +27,7 @@ A unique Taylor Swift-themed app where each square in a Tic Tac Toe-style grid r
     </td>
   </tr>
 </table>
+</div>
 
 ## How to Use
 1. Open the app.

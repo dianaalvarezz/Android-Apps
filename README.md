@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Android Apps Collection 📱
 
 ## Overview
@@ -18,3 +19,6 @@ Each app in this repository has its own folder, containing:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/Android-Apps.git
+=======
+# Contacts-List
+>>>>>>> bae05eb (Initial commit)

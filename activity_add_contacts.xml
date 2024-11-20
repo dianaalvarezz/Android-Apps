@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- First Name Edit Text -->
+    <EditText
+        android:id="@+id/firstNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:padding="12dp"
+        android:backgroundTint="@color/purple_300"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/pink_500"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Last Name Edit Text -->
+    <EditText
+        android:id="@+id/lastNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:padding="12dp"
+        android:backgroundTint="@color/purple_300"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/pink_500"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Email Edit Text -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:padding="12dp"
+        android:backgroundTint="@color/purple_300"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/pink_500"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Phone Number Edit Text -->
+    <EditText
+        android:id="@+id/phoneInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone_number"
+        android:padding="12dp"
+        android:backgroundTint="@color/purple_300"
+        android:textColor="@color/purple_700"
+        android:textColorHint="@color/pink_500"
+        android:inputType="phone"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Save Contact Button Edit Text -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_contact"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/pink_500"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

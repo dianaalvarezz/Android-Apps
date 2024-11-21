@@ -1,0 +1,39 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Contacts List</string>
+
+    <!-- Activity Titles -->
+    <string name="main_activity_title">Contacts</string>
+    <string name="add_contact_activity_title">Add Contact</string>
+
+    <!-- Labels -->
+    <string name="label_name">Name</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Phone</string>
+
+    <!-- Button Texts -->
+    <string name="button_add_contact">Add Contact</string>
+    <string name="button_save">Save</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_delete">Delete</string>
+
+    <!-- Search Hint -->
+    <string name="hint_search_email">Search by email</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_fields">All fields are required</string>
+    <string name="error_invalid_phone">Invalid phone number</string>
+
+    <!-- Success Messages -->
+    <string name="success_contact_added">Contact added successfully</string>
+    <string name="success_contact_updated">Contact updated successfully</string>
+    <string name="success_contact_deleted">Contact deleted successfully</string>
+
+    <!-- Confirmation Messages -->
+    <string name="confirmation_delete_contact">Are you sure you want to delete this contact?</string>
+    <string name="first_name">First Name</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="save_contact">Save Contact</string>
+</resources>

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Android Apps Collection 📱
 
 ## Overview

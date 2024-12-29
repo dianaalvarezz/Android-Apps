@@ -21,4 +21,3 @@ Each app in this repository has its own folder, containing:
    git clone https://github.com/yourusername/Android-Apps.git
 =======
 # Contacts-List
->>>>>>> bae05eb (Initial commit)
